@@ -10,12 +10,10 @@ within React to create navigation and a nicer layout to our webpage. We thought 
  future.
 
 ## How to play:
-what we installed
-how to run
+Make sure that nodejs and react are downloaded.  After downloading the repository, run npm install.  Then run npm start and the terminal will direct you to the http port you can view the web page on in your browser.
 
 ## What we attempted to build:
-step history, buttons... the actual game the tutorial instructed us to build
-our further exploration: navigation, tabs, etc
+We created a web page with a header and navigation and the game tic-tac-toe. In addition to the basic function of tic-tac-toe, the game keeps track of a history of past moves and allows you to jump backwards to see what the board looked like during those past moves. We followed the react tutorial https://reactjs.org/tutorial/tutorial.html to build the tic-tac-toe part of the game. We explored further to create a header for our webpage.
 
 ## Who did what:
 For the majority of our Hack-A-Thing, we worked together, side by side! It made our work go very smoothly.
