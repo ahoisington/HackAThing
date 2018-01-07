@@ -38,9 +38,11 @@ class Board extends React.Component {
 
   render() {
     const status = 'Next player: '+ (this.state.xIsNext ? 'X' : 'O');
+    const greeting = 'Welcome to Acacia and Morgan\'s Hack-A-Thing!!!! We made a tic-tac-toe board with react.  Have fun!\n\n';
 
     return (
       <div>
+      <div className="greeting">{greeting}</div>
         <div className="status">{status}</div>
         <div className="board-row">
           {this.renderSquare(0)}
@@ -96,7 +98,7 @@ class ShoppingList extends React.Component {
 // ========================================
 
 ReactDOM.render(
-  <Game />,
+  <Game/>,
   document.getElementById('root')
 );
 
