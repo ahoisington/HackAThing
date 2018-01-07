@@ -1,3 +1,43 @@
+# Acacia & Morgan's Hack-A-Thing: Tic-Tac-Toe with React
+For our Hack-A-Thing project, we decided to tackle the web development arena
+ by using React JS. Neither of us have much experience with React (or WebDev at all...). 
+After a little Googling, we came across this [tutorial](https://reactjs.org/tutorial/tutorial.html)
+ on the React webpage for beginners, and we followed it -- it was fairly straightforward and comprehensive.
+
+Once we finished the tutorial and had a complete, working game, we explored a little bit more 
+within React to create navigation and a nicer layout to our webpage. We thought these simple
+ additions would be beneficial for us to learn for any sort of project we decide to do in the
+ future.
+
+## How to Play:
+what we installed
+how to run
+
+## What we attempted to build:
+step history, buttons... the actual game the tutorial instructed us to build
+our further exploration: navigation, tabs, etc
+
+## Who did what:
+For the majority of our Hack-A-Thing, we worked together, side by side! It made our work go very smoothly.
+ We could think together about problems and fix problems quickly. Even though we each typed different pieces
+ of code, our work was shared and balanced.
+* Acacia did the setup / started the tutorial through to the "Taking Turns" section.
+* Morgan did the winner calculation through to the end of the tutorial.
+* Acacia researched formatting tricks, enhanced layout of our game (the green box, centering).
+* Morgan wrote up the README.md
+* Acacia found examples of other projects created with React, so that we had some inspiration for how else to
+ enhance our Tic-Tac-Toe webpage.
+
+
+## What we learned:
+
+## What didn't work:
+
+
+
+
+# The following is the built-in README that comes along with the starter code for our React tutorial.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
