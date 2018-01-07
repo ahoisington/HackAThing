@@ -43,8 +43,10 @@ class Board extends React.Component {
     const greeting = 'Welcome to Acacia and Morgan\'s Hack-A-Thing!!!! We made a tic-tac-toe board with react.  Have fun!\n\n';
     const winner = calculateWinner(this.state.squares);
     let status;
-    if (winner) {
+    if (winner == 'X' || winner == 'O') {
       status = 'Player ' + winner + ' has won!';
+    } else if (winner == 'tie') {
+      status = "It's a Draw!"
     } else {
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
     }
@@ -121,7 +123,13 @@ function calculateWinner(squares) {
       return squares[a];
     }
   }
-  return null;
+
+  for (let i = 0; i < squares.length; i++) {
+    if (squares[i] == null) {
+      return null;
+    }
+  }
+  return 'tie';
 }
 
 // ========================================
