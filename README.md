@@ -9,7 +9,7 @@ within React to create navigation and a nicer layout to our webpage. We thought 
  additions would be beneficial for us to learn for any sort of project we decide to do in the
  future.
 
-## How to Play:
+## How to play:
 what we installed
 how to run
 
@@ -19,12 +19,13 @@ our further exploration: navigation, tabs, etc
 
 ## Who did what:
 For the majority of our Hack-A-Thing, we worked together, side by side! It made our work go very smoothly.
- We could think together about problems and fix problems quickly. Even though we each typed different pieces
+ We could think together about our project and fix problems quickly. Even though we each typed different pieces
  of code, our work was shared and balanced.
 * Acacia did the setup / started the tutorial through to the "Taking Turns" section.
 * Morgan did the winner calculation through to the end of the tutorial.
 * Acacia researched formatting tricks, enhanced layout of our game (the green box, centering).
-* Morgan wrote up the README.md
+* Morgan wrote up the README.md layout
+* We both contributed to the README.md
 * Acacia found examples of other projects created with React, so that we had some inspiration for how else to
  enhance our Tic-Tac-Toe webpage.
 
