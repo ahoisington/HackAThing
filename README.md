@@ -5,7 +5,7 @@ After a little Googling, we came across this [tutorial](https://reactjs.org/tuto
  on the React webpage for beginners, and we followed it -- it was fairly straightforward and comprehensive.
 
 Once we finished the tutorial and had a complete, working game, we explored a little bit more 
-within React to create navigation and a nicer layout to our webpage. We thought these simple
+within React to create a header and a nicer layout to our webpage. We thought these simple
  additions would be beneficial for us to learn for any sort of project we decide to do in the
  future.
 
@@ -16,26 +16,29 @@ within React to create navigation and a nicer layout to our webpage. We thought 
 to the http port where you can view the web page in your browser.
 
 ## What we attempted to build:
-We created a web page with a header and navigation and the game tic-tac-toe. In addition to the basic function of tic-tac-toe, the game keeps track of a history of past moves and allows you to jump backwards to see what the board looked like during those past moves. We followed the react tutorial, as mentioned above, to build the tic-tac-toe part of the game. We explored further to create the header for our webpage.
+We created a web page with a header, body, and the game tic-tac-toe. In addition to the basic function of tic-tac-toe, the game keeps track of a history of past moves and allows you to jump backwards to see what the board looked like during those past moves. We followed the React tutorial, as mentioned above, to build the tic-tac-toe part of the game. We explored further to create the header for our webpage and add aesthetic features that
+ would make the page more appealing.
 
 ## Who did what:
-For the majority of our Hack-A-Thing, we worked together, side by side! It made our work go very smoothly.
+For the majority of our Hack-A-Thing, we worked together, side by side. It made our work go very smoothly.
  We could think together about our project and fix problems quickly. Even though we each typed different pieces
  of code, our work was shared and balanced.
 * Acacia did the setup / started the tutorial through to the "Taking Turns" section.
 * Morgan did the winner calculation through to the end of the tutorial.
 * Acacia researched formatting tricks, enhanced layout of our game (the green box, centering).
-* Morgan wrote up the README.md layout
+* Morgan created the README.md setup/layout
 * We both contributed to the README.md
 * Acacia found examples of other projects created with React, so that we had some inspiration for how else to
  enhance our Tic-Tac-Toe webpage.
+* Acacia made green background and header formatting
+* Morgan and Acacia formatted the body of the webpage
 
 
 ## What we learned:
 We learned a lot! We learned how to make a webpage with React JS. Through the tutorial, we learned how to use various
  components in order to build a cohesive design. We caught on to the idea of having various classes and methods
  in React because that's pretty inherent for any CS Major at this point... the parts that were new to us included
-most of the React JS syntax and the concept of 'rendering' all of our components'.
+most of the React JS syntax and the concept of 'rendering' all of our components.
 
 ## What didn't work:
 In the end, we solved all of our bugs and answered any questions we had, but along the way, we struggled with
@@ -44,6 +47,13 @@ In the end, we solved all of our bugs and answered any questions we had, but alo
  the idea that React JS is pretty flexible; a lot of people use it for a lot of different reasons. We found a
  few example projects on GitHub where people use it to create a WebApp/Webpage. React is an extension of the
  Javascript library and is an excellent tool for creating customizable user interfaces.
+
+Here are a few examples we found of people using React, which we used as inspiration for our webpage:
+* [this](https://github.com/ahfarmer/emoji-search) Emoji search tool
+* [this](https://github.com/7kfpun/FinanceReactNative) stocks app
+* [this](https://github.com/akveo/react-native-reddit-reader) Reddit reader app
+* [this](https://github.com/andrewngu/sound-redux) Soundcloud client
+* [this](https://github.com/benoitvallon/react-native-nw-react-calculator) cool calculator app
 
 
 
