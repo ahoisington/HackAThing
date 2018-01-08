@@ -10,10 +10,13 @@ within React to create navigation and a nicer layout to our webpage. We thought 
  future.
 
 ## How to play:
-Make sure that nodejs and react are downloaded.  After downloading the repository, run npm install.  Then run npm start and the terminal will direct you to the http port you can view the web page on in your browser.
+* Make sure that `nodejs` and `react` are downloaded. If you have Homebrew, you can do this by running: 
+`brew install nodejs` and `brew install react`.
+* After cloning this repository, run `npm install`. Then run `npm start` and the terminal will direct you 
+to the http port where you can view the web page in your browser.
 
 ## What we attempted to build:
-We created a web page with a header and navigation and the game tic-tac-toe. In addition to the basic function of tic-tac-toe, the game keeps track of a history of past moves and allows you to jump backwards to see what the board looked like during those past moves. We followed the react tutorial https://reactjs.org/tutorial/tutorial.html to build the tic-tac-toe part of the game. We explored further to create a header for our webpage.
+We created a web page with a header and navigation and the game tic-tac-toe. In addition to the basic function of tic-tac-toe, the game keeps track of a history of past moves and allows you to jump backwards to see what the board looked like during those past moves. We followed the react tutorial, as mentioned above, to build the tic-tac-toe part of the game. We explored further to create the header for our webpage.
 
 ## Who did what:
 For the majority of our Hack-A-Thing, we worked together, side by side! It made our work go very smoothly.
@@ -29,9 +32,18 @@ For the majority of our Hack-A-Thing, we worked together, side by side! It made 
 
 
 ## What we learned:
+We learned a lot! We learned how to make a webpage with React JS. Through the tutorial, we learned how to use various
+ components in order to build a cohesive design. We caught on to the idea of having various classes and methods
+ in React because that's pretty inherent for any CS Major at this point... the parts that were new to us included
+most of the React JS syntax and the concept of 'rendering' all of our components'.
 
 ## What didn't work:
-
+In the end, we solved all of our bugs and answered any questions we had, but along the way, we struggled with
+ a few concepts. Mainly, what _IS_ React JS?? Is it a language, a package, something only used to make webpages?
+ Who uses it and why do they use it? Because the tutorial was very comprehensive, we caught on to
+ the idea that React JS is pretty flexible; a lot of people use it for a lot of different reasons. We found a
+ few example projects on GitHub where people use it to create a WebApp/Webpage. React is an extension of the
+ Javascript library and is an excellent tool for creating customizable user interfaces.
 
 
 
