@@ -21,11 +21,13 @@ class Board extends React.Component {
   }
 
   render() {
-    const greeting = 'Welcome to Acacia and Morgan\'s Hack-A-Thing!!!! We made a tic-tac-toe board with react.  Have fun!\n\n';
+    const greeting = 'Welcome to Acacia and Morgan\'s Hack-A-Thing!!!! We made a tic-tac-toe board with React. Have fun!';
+    const instruct = 'If you want to play again or start over, just click the \'Go to game start\' button and start playing! The board will refresh.';
     
     return (
       <div>
       <div className="greeting">{greeting}</div>
+      <div className="instruct" id="instructions">{instruct}</div>
       <div id="tictac">
           <div className="board-row">
             {this.renderSquare(0)}
