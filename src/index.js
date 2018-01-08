@@ -26,21 +26,23 @@ class Board extends React.Component {
     return (
       <div>
       <div className="greeting">{greeting}</div>
-        <div className="board-row">
-          {this.renderSquare(0)}
-          {this.renderSquare(1)}
-          {this.renderSquare(2)}
-        </div>
-        <div className="board-row">
-          {this.renderSquare(3)}
-          {this.renderSquare(4)}
-          {this.renderSquare(5)}
-        </div>
-        <div className="board-row">
-          {this.renderSquare(6)}
-          {this.renderSquare(7)}
-          {this.renderSquare(8)}
-        </div>
+      <div id="tictac">
+          <div className="board-row">
+            {this.renderSquare(0)}
+            {this.renderSquare(1)}
+            {this.renderSquare(2)}
+          </div>
+          <div className="board-row">
+            {this.renderSquare(3)}
+            {this.renderSquare(4)}
+            {this.renderSquare(5)}
+          </div>
+          <div className="board-row">
+            {this.renderSquare(6)}
+            {this.renderSquare(7)}
+            {this.renderSquare(8)}
+          </div>
+      </div>
       </div>
     );
   }
@@ -124,21 +126,20 @@ class Game extends React.Component {
     );
   }
 }
-
-class ShoppingList extends React.Component {
+class Header extends React.Component {
   render() {
+    const title = "Morgan and Acacia's Hack-A-Thing"
     return (
-      <div className="shopping-list">
-        <h1>Shopping List for {this.props.name}</h1>
-        <ul>
-          <li>Instagram</li>
-          <li>WhatsApp</li>
-          <li>Oculus</li>
-        </ul>
-      </div>
+      <nav className="navbar navbar-light" id="nav">
+        <div className="title" id="header">
+            <div>{title}</div>
+        </div>
+      </nav>
     );
   }
 }
+
+
 
 function calculateWinner(squares) {
   const lines = [
@@ -167,10 +168,20 @@ function calculateWinner(squares) {
   return 'tie';
 }
 
-// ========================================
+class App extends React.Component {
+  render() {
+    const {header,game} = this.props;
+    return (
+      <div className="app" id="app">
+        <Header title={header} />
+        <Game title={game} />
+      </div>
+    );
+  }
+};
 
 ReactDOM.render(
-  <Game/>,
+  <App  />, 
   document.getElementById('root')
 );
 

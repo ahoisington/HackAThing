@@ -1,10 +1,12 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
+  background-color:green;
 }
 
 ol, ul {
   padding-left: 30px;
+  display:inline-block;
 }
 
 .board-row:after {
@@ -45,12 +47,31 @@ ol, ul {
   flex-direction: row;
 }
 
+#tictac {
+  display:inline-block;
+  padding: 10px;
+}
+
 .center {
   margin: auto;
   text-align: center;
   width: 50%;
-  border: 3px solid green;
   padding: 10px;
+}
+
+#header {
+  text-align: center;
+  padding: 10px;
+  font-weight:bold;
+}
+#nav {
+  background-color:green;
+  border-bottom: 4bx solid 003300;
+  overflow:visible;
+}
+
+#app {
+  background-color: green;
 }
 
 .game-info {
