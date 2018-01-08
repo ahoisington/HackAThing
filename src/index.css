@@ -9,6 +9,7 @@ ol, ul {
   padding-left: 30px;
 }
 
+
 .board-row:after {
   clear: both;
   content: "";
@@ -63,12 +64,12 @@ ol, ul {
 #header {
   text-align: center;
   padding: 10px;
-  width:100%;
-  margin-left: auto;
+  margin-left: -25;
   font-weight:bold;
   font-size:24px;
   border-bottom:3px solid white;
   }
+
 #nav {
   background-color:green;
   border-bottom: 4bx solid 003300;
