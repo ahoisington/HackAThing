@@ -98,7 +98,7 @@ class Game extends React.Component {
         'Go to game start';
       return (
         <li key={move}>
-          <button onClick={() => this.jumpTo(move)}>{desc}</button>
+          <button id="moveJumpButton" onClick={() => this.jumpTo(move)}>{desc}</button>
         </li>
       );
     });
@@ -135,12 +135,17 @@ class Header extends React.Component {
       <nav className="navbar navbar-light" id="nav">
         <div className="title" id="header">
             <div>{title}</div>
+            <a href="http://cs98.me/projects/milestones/hack-a-thing-1" target="_blank">
+              <button id="assignmentButton">Assignment Instructions</button>
+            </a>
+            <a href="https://github.com/ahoisington/HackAThing" target="_blank">
+              <button id="codeButton">View Our Code</button>
+            </a>
         </div>
       </nav>
     );
   }
 }
-
 
 
 function calculateWinner(squares) {

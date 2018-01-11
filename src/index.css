@@ -1,5 +1,6 @@
 body {
   font: 20px "Century Gothic", Futura, sans-serif;
+  font-weight: bold;
   margin: 20px;
   background-color:green;
 }
@@ -66,7 +67,7 @@ ol, ul {
   padding: 10px;
   margin-left: -25;
   font-weight:bold;
-  font-size:24px;
+  font-size:33px;
   border-bottom:3px solid white;
   }
 
@@ -74,6 +75,51 @@ ol, ul {
   background-color:green;
   border-bottom: 4bx solid 003300;
   overflow:visible;
+}
+
+#assignmentButton {
+  font-size: 12px;
+  border-radius: 6px;
+  -webkit-transition-duration: .4s;
+  transition-duration: .4s;
+  background-color: whitesmoke;
+  color: black;
+  width: 25%;
+}
+
+#assignmentButton:hover {
+  background-color: grey;
+  color: whitesmoke;
+}
+
+#codeButton {
+  font-size: 12px;
+  border-radius: 6px;
+  -webkit-transition-duration: .4s;
+  transition-duration: .4s;
+  background-color: whitesmoke;
+  color: black;
+  width: 25%;
+}
+
+#codeButton:hover {
+  background-color: grey;
+  color: whitesmoke;
+}
+
+#moveJumpButton {
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  -webkit-transition-duration: .4s;
+  transition-duration: .4s;
+  background-color: whitesmoke;
+  color: black;
+}
+
+#moveJumpButton:hover {
+  background-color: grey;
+  color: whitesmoke;
 }
 
 #app {
