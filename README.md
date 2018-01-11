@@ -31,7 +31,11 @@ For the majority of our Hack-A-Thing, we worked together, side by side. It made 
  enhance our Tic-Tac-Toe webpage.
 * Acacia made green background and header formatting
 * Morgan and Acacia formatted the body of the webpage
-We then submitted our project on Sunday night, only to find out we had a few more days to work on it! We spent a good chunk of the extra time just reading/researching more information about React JS, then we went back and added some more cool features to our project.
+
+We then submitted our project on Sunday night, only to find out we had a few more days to work on it! 
+We spent a good chunk of the extra time just reading/researching more information about React JS, 
+then we went back and added some more cool features to our project.
+
 * Morgan added two navigational buttons to our header -- one to the assignment instructions and one to our Github page
 * Morgan formatted all of the buttons on the page and made them hoverable
 
