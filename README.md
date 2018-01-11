@@ -16,8 +16,7 @@ within React to create a header and a nicer layout to our webpage. We thought th
 to the http port where you can view the web page in your browser.
 
 ## What we attempted to build:
-We created a web page with a header, body, and the game tic-tac-toe. In addition to the basic function of tic-tac-toe, the game keeps track of a history of past moves and allows you to jump backwards to see what the board looked like during those past moves. We followed the React tutorial, as mentioned above, to build the tic-tac-toe part of the game. We explored further to create the header for our webpage and add aesthetic features that
- would make the page more appealing.
+We created a web page with a header, body, and the game tic-tac-toe. In addition to the basic function of tic-tac-toe, the game keeps track of a history of past moves and allows you to jump backwards to see what the board looked like during those past moves. We followed the React tutorial, as mentioned above, to build the tic-tac-toe part of the game. We explored further to create the header for our webpage and add aesthetic features that would make the page more appealing.
 
 ## Who did what:
 For the majority of our Hack-A-Thing, we worked together, side by side. It made our work go very smoothly.
@@ -32,13 +31,17 @@ For the majority of our Hack-A-Thing, we worked together, side by side. It made 
  enhance our Tic-Tac-Toe webpage.
 * Acacia made green background and header formatting
 * Morgan and Acacia formatted the body of the webpage
-
+We then submitted our project on Sunday night, only to find out we had a few more days to work on it! We spent a good chunk of the extra time just reading/researching more information about React JS, then we went back and added some more cool features to our project.
+* Morgan added two navigational buttons to our header -- one to the assignment instructions and one to our Github page
+* Morgan formatted all of the buttons on the page and made them hoverable
 
 ## What we learned:
 We learned a lot! We learned how to make a webpage with React JS. Through the tutorial, we learned how to use various
  components in order to build a cohesive design. We caught on to the idea of having various classes and methods
  in React because that's pretty inherent for any CS Major at this point... the parts that were new to us included
-most of the React JS syntax and the concept of 'rendering' all of our components.
+most of the React JS syntax and the concept of 'rendering' all of our components. Some specific things we learned
+ how to do include building navigational buttons on our webpage, creating a component hierarchy, and formatting
+ a webpage to look pleasing to the eye (by playing around with all the different colors and schemes to implement).
 
 ## What didn't work:
 In the end, we solved all of our bugs and answered any questions we had, but along the way, we struggled with
